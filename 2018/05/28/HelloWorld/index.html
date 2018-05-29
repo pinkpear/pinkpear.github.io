@@ -3,6 +3,8 @@
   <header class="header">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
   <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+  <title>Pinkpear</title>
+  <link rel="stylesheet" href="/css/style.css">
 <div class="blog-title">
     <a href="/" class="logo">Pinkpear</a>
   </div>
@@ -29,7 +31,38 @@
   </nav>
 </header>
   <body>
-    
+    .header {
+  margin-top: 2em
+  display: flex
+  align-items: baseline
+  justify-content: space-between
+
+  .blog-title .logo {
+    color: #AAA;
+    font-size: 2em;
+    font-family: "Comic Sans MS",cursive,LiSu,sans-serif;
+    text-decoration: none;
+  }
+
+  .menu {
+    margin: 0;
+    padding: 0;
+
+    .menu-item {
+      display: inline-block;
+      margin-right: 10px;
+    }
+
+    .menu-item-link {
+      color: #AAA;
+      text-decoration: none;
+
+      &:hover {
+        color: #368CCB;
+      }
+    }
+  }
+}
     <main class="main">
       
 <article id="post">
