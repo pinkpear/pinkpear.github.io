@@ -4,23 +4,8 @@
 
     
   <url>
-    <loc>http://yoursite.com/2018/05/30/pinkpear.github.io/</loc>
-    <lastmod>2018-05-30T07:06:21.798Z</lastmod>
-    <data>
-        <display>
-        <title>test</title>
-        <pubTime>2018-05-30T04:33:59.000Z</pubTime>
-        
-         
-           
-        </display>
-    </data>
-    </url>
-
-    
-  <url>
     <loc>http://yoursite.com/2018/05/28/HelloWorld/</loc>
-    <lastmod>2018-05-30T01:42:03.473Z</lastmod>
+    <lastmod>2018-05-30T15:42:29.251Z</lastmod>
     <data>
         <display>
         <title>考生的悲哀</title>
@@ -30,6 +15,21 @@
          
         <tag>Life</tag>
          
+         
+           
+        </display>
+    </data>
+    </url>
+
+    
+  <url>
+    <loc>http://yoursite.com/2018/05/30/pinkpear.github.io/</loc>
+    <lastmod>2018-05-30T07:06:21.798Z</lastmod>
+    <data>
+        <display>
+        <title>test</title>
+        <pubTime>2018-05-30T04:33:59.000Z</pubTime>
+        
          
            
         </display>
