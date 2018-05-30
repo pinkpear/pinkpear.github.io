@@ -1,7 +1,6 @@
 body {
   background-color: #f2f2f2;
   font-size: 1.25rem;
-  line-height: 1.5;
 }
 .container {
   max-width: 960px;
@@ -57,6 +56,9 @@ body {
 .posts .post-content a {
   color: #368ccb;
   text-decoration: none;
+}
+.posts .post-content p {
+  line-height: 20px;
 }
 .posts .post-meta {
   color: #bababa;

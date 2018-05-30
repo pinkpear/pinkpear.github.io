@@ -22,6 +22,9 @@
   color: #368ccb;
   text-decoration: none;
 }
+.posts .post-content p {
+  line-height: 20px;
+}
 .posts .post-meta {
   color: #bababa;
 }
