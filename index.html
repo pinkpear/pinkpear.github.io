@@ -120,8 +120,6 @@
 <meta name="twitter:description" content="最美人间四月天。">
 
 
-  
-
 
   <link rel="alternate" href="/atom.xml" title="Pinkpear" type="application/atom+xml" />
 
@@ -365,7 +363,7 @@
                 
               
 
-              <time title="创建时间：2018-05-31 17:28:57 / 修改时间：19:49:31" itemprop="dateCreated datePublished" datetime="2018-05-31T17:28:57+08:00">2018-05-31</time>
+              <time title="创建时间：2018-05-31 17:28:57 / 修改时间：20:01:20" itemprop="dateCreated datePublished" datetime="2018-05-31T17:28:57+08:00">2018-05-31</time>
             
 
             
@@ -404,69 +402,16 @@
 
       
         
-          
-            <p>#TimeCard微信小程序  </p>
+          <p>#TimeCard微信小程序  </p>
 <h2 id="项目介绍"><a href="#项目介绍" class="headerlink" title="项目介绍"></a>项目介绍</h2><p>TimeCard微信小程序是一个基于微信开发工具所编写的一款小程序，它是一个关于效率的小程序，主要提供倒计日和目标日（待完成）的功能。该项目正在持续开发中，目前版本是v0.0.8。（<a href="https://github.com/pinkpear/TimeCard/" target="_blank" rel="noopener">项目地址</a>）  </p>
-<p><img src="https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg" alt="CircleCI"> &nbsp;&nbsp;&nbsp;<br><img src="https://img.shields.io/hexpm/l/plug.svg" alt="Hex.pm">      </p>
-<h3 id="项目功能"><a href="#项目功能" class="headerlink" title="项目功能"></a>项目功能</h3><blockquote>
-<p>TimeCard  </p>
-<blockquote>
-<p>登录注册<br>倒计日  </p>
-<blockquote>
-<p>创建<br>保存分享<br>修改<br>删除  </p>
-</blockquote>
-<p>目标日</p>
-<blockquote>
-<p>创建<br>保存分享<br>修改<br>删除  </p>
-</blockquote>
-</blockquote>
-</blockquote>
-<h3 id="已完成功能及还需完成功能"><a href="#已完成功能及还需完成功能" class="headerlink" title="已完成功能及还需完成功能"></a>已完成功能及还需完成功能</h3><ul>
-<li style="list-style: none"><input type="checkbox" checked> 用户登录注册</li>
-<li style="list-style: none"><input type="checkbox" checked> 倒计日模块中创建、保存分享及删除</li>
-<li style="list-style: none"><input type="checkbox"> 倒计日修改</li>
-<li style="list-style: none"><input type="checkbox"> 目标日模块</li>
-</ul>
-<h2 id="项目运行效果图"><a href="#项目运行效果图" class="headerlink" title="项目运行效果图"></a>项目运行效果图</h2><ol>
-<li><p>小程序登录界面<br><img src="http://p9imm94yt.bkt.clouddn.com/image/TimeCard/Cardregister.png" alt="登录注册页面">  </p>
-</li>
-<li><p>倒计日卡片创建页<br><img src="http://p9imm94yt.bkt.clouddn.com/image/TimeCard/Cardcreate.png" alt="倒计日卡片创建页">  </p>
-</li>
-<li><p>时间卡片展示页<br><img src="http://p9imm94yt.bkt.clouddn.com/image/TimeCard/Cardshow.png" alt="时间卡片展示页">  </p>
-</li>
-<li><p>倒计日详情页<br><img src="http://p9imm94yt.bkt.clouddn.com/image/TimeCard/Carddetail.png" alt="倒计日详情页">  </p>
-</li>
-<li><p>分享卡片页<br><img src="http://p9imm94yt.bkt.clouddn.com/image/TimeCard/Cardsave.png" alt="分享页">  </p>
-</li>
-</ol>
-<h2 id="用户数据存储"><a href="#用户数据存储" class="headerlink" title="用户数据存储"></a>用户数据存储</h2><p>本项目数据存储的方式为知晓云，个人开发者小型项目免费版本基本可以满足需求（就是有时候存在网络延迟:anguished:…可能是本身服务器的原因，与账户类型无关）。<br>总共设置了两个表：  </p>
-<ol>
-<li><p>用于存储用户信息的表（<code>userinfo表</code>）<br><img src="http://p9imm94yt.bkt.clouddn.com/image/TimeCard/userinfo.png" alt="userinfo表结构">  </p>
-</li>
-<li><p>用于存储用户所填卡片信息（<code>timecard表</code>）<br><img src="http://p9imm94yt.bkt.clouddn.com/image/TimeCard/timecard.png" alt="timecard表"></p>
-</li>
-</ol>
-<h2 id="使用方法"><a href="#使用方法" class="headerlink" title="使用方法"></a>使用方法</h2><blockquote>
-<p>开发工具：<code>微信web开发者工具</code>（<a href="https://mp.weixin.qq.com/cgi-bin/wx" target="_blank" rel="noopener">下载与注册地址</a>）<br>数据存储：<code>知晓云</code>（<a href="https://cloud.minapp.com/" target="_blank" rel="noopener">注册地址</a>）  </p>
-</blockquote>
-<ol>
-<li><p>将项目下载到本地，并使用微信web开发者工具导入项目，并填入自己的AppID。</p>
-</li>
-<li><p>进入项目确保项目文件中<code>project.config.json</code>中的<code>appid</code>为自己的appid。并在<code>app.js</code>文件中的<code>clientID</code>填入自己的知晓云clientID。</p>
-</li>
-<li><p>在<code>pages/register/register.js</code>文件中的data填入自己在知晓云创建的<code>userinfo表ID</code>。  </p>
-</li>
-<li><p>在<code>pages/index/index.js</code>文件中填入创建的<code>timecard表ID</code>。同理修改<code>pages/index/carddetail.js</code>和<code>pages/create/create.js</code>。  </p>
-</li>
-<li><p>运行即可</p>
-</li>
-</ol>
-<h2 id="捐赠"><a href="#捐赠" class="headerlink" title="捐赠"></a>捐赠</h2><p>如果你喜欢这个项目，欢迎Star、Fork。也欢迎 Pull requests 一起完善这个项目。<br><img src="http://p9imm94yt.bkt.clouddn.com/image/paywechatpay.png" alt="微信支付"><br><img src="http://p9imm94yt.bkt.clouddn.com/image/payAlipay.png" alt="支付宝"><br>开发不易请作者喝杯饮料吧！</p>
-<h2 id="License"><a href="#License" class="headerlink" title="License"></a>License</h2><blockquote>
-<p>Licensed under the Apache License, Version 2.0 (the “License”);<br>you may not use this file except in compliance with the License.<br>You may obtain a copy of the License at<br><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener"></a><a href="http://www.apache.org/licenses/LICENSE-2.0" target="_blank" rel="noopener">http://www.apache.org/licenses/LICENSE-2.0</a><br>Unless required by applicable law or agreed to in writing, software<br>distributed under the License is distributed on an “AS IS” BASIS,<br>WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.<br>See the License for the specific language governing permissions and<br>limitations under the License.</p>
-</blockquote>
-
-          
+<p><img src="https://img.shields.io/circleci/project/github/RedSparr0w/node-csgo-parser.svg" alt="CircleCI">&nbsp;&nbsp;&nbsp;<br><img src="https://img.shields.io/hexpm/l/plug.svg" alt="Hex.pm"><br>
+          <!--noindex-->
+          <div class="post-button text-center">
+            <a class="btn" href="/2018/05/31/TimeCard微信小程序/#more" rel="contents">
+              阅读全文 &raquo;
+            </a>
+          </div>
+          <!--/noindex-->
         
       
     </div>
