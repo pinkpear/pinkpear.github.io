@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pinkpear.github.io/"/>
-  <updated>2018-05-31T12:07:27.763Z</updated>
+  <updated>2018-06-26T09:06:10.987Z</updated>
   <id>http://pinkpear.github.io/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>leetCode-day1</title>
+    <link href="http://pinkpear.github.io/2018/06/26/leetCode-day1/"/>
+    <id>http://pinkpear.github.io/2018/06/26/leetCode-day1/</id>
+    <published>2018-06-26T08:32:26.000Z</published>
+    <updated>2018-06-26T09:06:10.987Z</updated>
+    
+    <content type="html"><![CDATA[<p>#1.两数之和</p><p>给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。<br>Given an array of integers, return indices of the two numbers such that they add up to a specific target.<br>你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。<br>You may assume that each input would have exactly one solution, and you may not use the same element twice.<br><a id="more"></a><br><strong>示例:</strong></p><blockquote><p>给定 nums = [2, 7, 11, 15], target = 9<br>因为 nums[0] + nums[1] = 2 + 7 = 9<br>所以返回 [0, 1]  </p></blockquote><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">/**</span></span><br><span class="line"><span class="comment"> * Note: The returned array must be malloced, assume caller calls free().</span></span><br><span class="line"><span class="comment"> */</span></span><br><span class="line"><span class="function"><span class="keyword">int</span>* <span class="title">twoSum</span><span class="params">(<span class="keyword">int</span>* nums, <span class="keyword">int</span> numsSize, <span class="keyword">int</span> target)</span> </span>&#123;</span><br><span class="line">  <span class="comment">// 结果为动态数组</span></span><br><span class="line">    <span class="keyword">int</span> *pArray = <span class="built_in">malloc</span>(<span class="keyword">sizeof</span>(<span class="keyword">int</span>) * <span class="number">2</span>);</span><br><span class="line">    <span class="keyword">int</span> j = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">int</span> i = <span class="number">0</span>;</span><br><span class="line">    <span class="keyword">for</span> (i = <span class="number">0</span>; i &lt; numsSize; i++)</span><br><span class="line">    &#123;</span><br><span class="line">        <span class="keyword">for</span> (j = i + <span class="number">1</span>; j &lt; numsSize; j++)</span><br><span class="line">        &#123;</span><br><span class="line">            <span class="keyword">if</span>((nums[i] + nums[j]) == target)</span><br><span class="line">            &#123;</span><br><span class="line">                pArray[<span class="number">0</span>] = i;</span><br><span class="line">                pArray[<span class="number">1</span>] = j;</span><br><span class="line">                <span class="keyword">break</span>;</span><br><span class="line">            &#125;</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line"></span><br><span class="line">    <span class="keyword">return</span> pArray;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>tips：if语句不加大括号的话，只是判断离if最近的语句是否执行。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;#1.两数之和&lt;/p&gt;
+&lt;p&gt;给定一个整数数组和一个目标值，找出数组中和为目标值的两个数。&lt;br&gt;Given an array of integers, return indices of the two numbers such that they add up to a specific target.&lt;br&gt;你可以假设每个输入只对应一种答案，且同样的元素不能被重复利用。&lt;br&gt;You may assume that each input would have exactly one solution, and you may not use the same element twice.&lt;br&gt;
+    
+    </summary>
+    
+    
+      <category term="-考研 -习惯" scheme="http://pinkpear.github.io/tags/%E8%80%83%E7%A0%94-%E4%B9%A0%E6%83%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>TimeCard微信小程序</title>
