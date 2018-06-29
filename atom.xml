@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://pinkpear.github.io/"/>
-  <updated>2018-06-26T09:11:38.176Z</updated>
+  <updated>2018-06-29T15:01:17.448Z</updated>
   <id>http://pinkpear.github.io/</id>
   
   <author>
@@ -15,6 +15,34 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PTA乙-Day2</title>
+    <link href="http://pinkpear.github.io/2018/06/29/PTA-Day2/"/>
+    <id>http://pinkpear.github.io/2018/06/29/PTA-Day2/</id>
+    <published>2018-06-29T14:57:15.000Z</published>
+    <updated>2018-06-29T15:01:17.448Z</updated>
+    
+    <content type="html"><![CDATA[<p>1002 写出这个数 (20)  </p><p>读入一个自然数n，计算其各位数字之和，用汉语拼音写出和的每一位数字。  </p><p>输入格式：每个测试输入包含1个测试用例，即给出自然数n的值。这里保证n小于10^100^。  </p><p>输出格式：在一行内输出n的各位数字之和的每一位，拼音数字间有1个空格，但一行中最后一个拼音数字后没有空格。  </p><p>输入样例：  </p><blockquote><p>1234567890987654321123456789  </p></blockquote><p>输出样例：  </p><blockquote><p>yi san wu</p></blockquote><p><strong>注意</strong>这里切不可使用基本的数据类型来处理，甭管什么double,long long都无法处理10的100次方。应该是用数组来处理，后面的就比较简单了。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;1002 写出这个数 (20)  &lt;/p&gt;
+&lt;p&gt;读入一个自然数n，计算其各位数字之和，用汉语拼音写出和的每一位数字。  &lt;/p&gt;
+&lt;p&gt;输入格式：每个测试输入包含1个测试用例，即给出自然数n的值。这里保证n小于10^100^。  &lt;/p&gt;
+&lt;p&gt;输出格式：在一行内输出n的
+      
+    
+    </summary>
+    
+    
+      <category term="习惯" scheme="http://pinkpear.github.io/tags/%E4%B9%A0%E6%83%AF/"/>
+    
+      <category term="编程" scheme="http://pinkpear.github.io/tags/%E7%BC%96%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>leetCode-day1</title>

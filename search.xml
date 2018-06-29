@@ -3,6 +3,23 @@
   
     
     <entry>
+      <title>PTA乙-Day2</title>
+      <link href="/2018/06/29/PTA-Day2/"/>
+      <url>/2018/06/29/PTA-Day2/</url>
+      <content type="html"><![CDATA[<p>1002 写出这个数 (20)  </p><p>读入一个自然数n，计算其各位数字之和，用汉语拼音写出和的每一位数字。  </p><p>输入格式：每个测试输入包含1个测试用例，即给出自然数n的值。这里保证n小于10^100^。  </p><p>输出格式：在一行内输出n的各位数字之和的每一位，拼音数字间有1个空格，但一行中最后一个拼音数字后没有空格。  </p><p>输入样例：  </p><blockquote><p>1234567890987654321123456789  </p></blockquote><p>输出样例：  </p><blockquote><p>yi san wu</p></blockquote><p><strong>注意</strong>这里切不可使用基本的数据类型来处理，甭管什么double,long long都无法处理10的100次方。应该是用数组来处理，后面的就比较简单了。</p>]]></content>
+      
+      
+        <tags>
+            
+            <tag> 习惯 </tag>
+            
+            <tag> 编程 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    <entry>
       <title>leetCode-day1</title>
       <link href="/2018/06/26/leetCode-day1/"/>
       <url>/2018/06/26/leetCode-day1/</url>
